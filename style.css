@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+    background-color: antiquewhite; /*remove later*/
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;   
+}
+
+nav a{
+    color: #575757;
+    text-decoration: none;
+}
+
+.nav-reg-button{
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    font-weight: 700;
+}
+
+/* End of Navigation Style */
+
