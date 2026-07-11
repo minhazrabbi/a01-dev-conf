@@ -14,7 +14,7 @@ nav{
     background-color: antiquewhite; /*remove later*/
 }
 
-ul{
+nav ul{
     display: flex;
     gap: 15px;
     list-style: none;   
@@ -127,3 +127,82 @@ header{
 }
 
 /* End of Speaker section */
+
+.pricing{
+    padding: 80px 8%;
+}
+.pricing h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+.pricing > p{
+    text-align: center;
+    color: #666;
+    margin-bottom: 60px;
+}
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid#ddd;
+    border-radius: 12px;
+    gap: 15px;
+}
+.plan-name{
+    font-size: .8rem;
+    font-weight: 700;
+    color: #666;
+    letter-spacing: 2px;
+}
+.pricing-card h3{
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.pricing-card p{
+    color: #666;
+    margin-bottom: 20px;
+}
+.pricing-card hr{
+    border: none;
+    border-top: 1px solid#eee;
+    margin-bottom: 20px;
+}
+.pricing-card ul{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.pricing-card li::marker{
+    color: #2563EB;
+}
+.btn-primary{
+    margin-top:auto ;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #2563EB;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.highlight{
+    background: #0D1B2A;
+    color: white;
+    border: none;
+}
+.highlight p,
+.highlight .plan-name{
+    color: #888888;
+}
+.highlight .plan-name{
+    color: #93C5FD;
+}
+
+/* Pricing Card Style done */
