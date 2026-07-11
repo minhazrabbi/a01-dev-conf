@@ -204,5 +204,47 @@ header{
 .highlight .plan-name{
     color: #93C5FD;
 }
+.btn-primary:hover{
+    transform:scale(1.1) ;
+}
 
 /* Pricing Card Style done */
+
+.main-footer{
+    background-color: #0D1B2A;
+    color: #9CA3AF;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 40px 8%;
+}
+.main-footer{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.footer-items{
+    display: flex;
+    gap: 25px;
+}
+.footer-items a{
+    text-decoration: none;
+    color: #9CA3AF;
+    transition: .3s;
+}
+.social-icons{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.social-icons img:hover{
+    transform:scale(1.15);
+}
+.logo-icon{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.logo-icon img{
+    height: 1rem;
+}
