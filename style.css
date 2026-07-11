@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+section{
+    padding: 18px 8%;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -84,3 +86,44 @@ header{
 
 /* End of Banner Styling */
 
+.speakers{
+    padding: 18px 8%;
+    margin-bottom: 5%;
+}
+.speakers h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 50px;
+    font-weight: 900;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.speaker-card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 2px solid#ddd;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.color{
+    color: #2563EB;
+}
+.speaker-card img{
+    width: 100%;
+    object-fit: cover;
+}
+.speaker-card h3, 
+.speaker-card p{
+        padding: 8px;
+        margin-bottom: 12px;
+}
+.color-2{
+    color: #575757;
+}
+
+/* End of Speaker section */
