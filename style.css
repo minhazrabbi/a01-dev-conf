@@ -210,6 +210,66 @@ header{
 
 /* Pricing Card Style done */
 
+/* Extra part */
+
+
+.schedule{
+    padding: 80px 8%;
+    background: #f8fafc;
+}
+.schedule h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+.schedule > p{
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 60px;
+}
+.schedule-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.schedule-card{
+    background: white;
+    border: 1px solid#e5e7eb;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.schedule-card h3{
+    text-align: center;
+    margin-bottom: 24px;
+    color: #1D4ED8;
+}
+.schedule-card ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0;
+}
+.schedule-cardli{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid#f1f5f9;
+}
+.time{
+    font-weight: 700;
+    color: #1D4ED8;
+}
+.event{
+    color: #475569;
+}
+
+
+/* Extra part finished  */
+
 .main-footer{
     background-color: #0D1B2A;
     color: #9CA3AF;
