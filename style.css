@@ -182,7 +182,7 @@ header{
 .pricing-card li::marker{
     color: #2563EB;
 }
-.btn-primary{
+.btn-pro{
     margin-top:auto ;
     padding: 14px;
     border: none;
@@ -192,6 +192,31 @@ header{
     font-weight: 700;
     cursor: pointer;
 }
+
+.btn-standard{
+    margin-top:auto ;
+    padding: 14px;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    background: white;
+    color: #2563EB;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+.btn-team{
+    margin-top:auto ;
+    padding: 14px;
+    border: 1px solid #0D1B2A;
+    border-radius: 8px;
+    background: white;
+    color: #0D1B2A;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 .highlight{
     background: #0D1B2A;
     color: white;
@@ -204,8 +229,9 @@ header{
 .highlight .plan-name{
     color: #93C5FD;
 }
-.btn-primary:hover{
-    transform:scale(1.1) ;
+
+.pricing-card:hover{
+    transform: scale(1.1);
 }
 
 /* Pricing Card Style done */
